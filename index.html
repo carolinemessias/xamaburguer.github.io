@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #f8c13a;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1606755962773-99b2e210ce67?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6em 1em;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #f8c13a;
+  padding: 1em 2em;
+  margin-top: 1em;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 3em 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+  background: #1a1a1a;
+  color: white;
+  padding: 2em 1em;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 0.5em;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0.5em 0.5em 0 0;
+  }
+
+  .hero {
+    padding: 4em 1em;
+  }
+
+  .hero h2 {
+    font-size: 1.4em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .hero .btn {
+    font-size: 1em;
+    padding: 0.8em 1.5em;
+  }
+}
+@media (max-width: 768px) {
+  /* Ajustes para telas pequenas */
+  .hero {
+    padding: 4em 1em;
+  }
+  .hero h2 {
+    font-size: 1.4em;
+  }
+  .hero p {
+    font-size: 1em;
+  }
+  .hero .btn {
+    font-size: 1em;
+    padding: 0.8em 1.5em;
+  }
+}
+<a href="https://wa.me/5573981023034" class="btn" target="_blank">Peça Agora no WhatsApp</a>
